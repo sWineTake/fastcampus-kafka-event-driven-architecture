@@ -24,4 +24,6 @@ include 'adapter:metadata-client'
 findProject(':adapter:metadata-client')?.name = 'metadata-client'
 include 'usecase:post-resolving-help-usecase'
 findProject(':usecase:post-resolving-help-usecase')?.name = 'post-resolving-help-usecase'
+include 'adapter:mysql'
+findProject(':adapter:mysql')?.name = 'mysql'
 
