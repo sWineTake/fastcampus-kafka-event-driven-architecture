@@ -1,17 +1,21 @@
 package com.fastcampus.kafkahandson.ugc;
 
 import com.fastcampus.kafkahandson.ugc.post.model.Post;
-import lombok.Data;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
 
 public interface PostUpdateUsecase {
 
-    Post update(Request request);
+	Post update(Request request);
 
-    @Data
-    class Request {
-        private final Long postId;
-        private final String title;
-        private final String content;
-        private final Long categoryId;
-    }
+	@Getter
+	@Setter
+	@AllArgsConstructor
+	class Request {
+		private final Long postId;
+		private final String title;
+		private final String content;
+		private final Long categoryId;
+	}
 }

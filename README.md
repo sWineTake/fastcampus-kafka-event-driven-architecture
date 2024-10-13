@@ -1,7 +1,7 @@
 Fast Campus [한번에 끝내는 Kafka Ecosystem](https://fastcampus.co.kr/dev_online_newkafka) 강의의 Part 2-2. Event Driven Architecture 실습 교육용 자료입니다.
 
 # Part 2-2. Event Driven Architecture 실습
-![stack](md_resource/stack.png)
+![stack](01.document/md_resource/stack.png)
 
 **Kafka를 통한 Event Driven Architecture 실습을 주제로, 백엔드 개발자가 실무에서 Kafka를 백엔드 시스템 전반에 적용하는 Case Study 학습을 하기 위한 교육용 프로젝트입니다.**
 
@@ -47,7 +47,7 @@ Kafka, Spring Boot, Java 17, Spring Data JPA, Mysql, Redis, MongoDB, Elasticsear
 - ChatGPT API ([`gpt-3.5-turbo`](https://platform.openai.com/docs/models/gpt-3-5-turbo))
 
 ### 구조도
-![ugc](md_resource/1_ugc_platform.png)
+![ugc](01.document/md_resource/1_ugc_platform.png)
 
 ## 선착순 쿠폰 발행 이벤트 대응 (Ch. 2)
 
@@ -66,7 +66,7 @@ Kafka, Spring Boot, Java 17, Spring Data JPA, Mysql, Redis, MongoDB, Elasticsear
 Kafka, Spring Boot, Java 17, Spring Data JPA, Mysql, Redis, Gradle, Docker, Docker Compose
 
 ### 구조도
-![coupon event](md_resource/2_coupon_event.png)
+![coupon event](01.document/md_resource/2_coupon_event.png)
 
 ## 실시간 로그 수집 파이프라인 구축 (Ch. 3)
 Kafka를 활용해서 로그를 실시간으로 수집하는 파이프라인을 구축해보는 프로젝트입니다.
@@ -84,7 +84,7 @@ Kafka를 활용해서 로그를 실시간으로 수집하는 파이프라인을 
 Kafka, Spring Boot, Java 17, Elastic Stack(Elasticsearch, Logstash, Kibana, Filebeat), Gradle, Docker, Docker Compose
 
 ### 구조도
-![elastic stack](md_resource/3_elasticstack.png)
+![elastic stack](01.document/md_resource/3_elasticstack.png)
 
 ---
 

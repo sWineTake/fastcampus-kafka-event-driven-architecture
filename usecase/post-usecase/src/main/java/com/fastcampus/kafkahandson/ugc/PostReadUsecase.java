@@ -4,5 +4,6 @@ import com.fastcampus.kafkahandson.ugc.post.model.ResolvedPost;
 
 public interface PostReadUsecase {
 
-    ResolvedPost getById(Long id);
+	ResolvedPost getById(Long id);
+
 }
