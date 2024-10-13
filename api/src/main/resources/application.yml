@@ -1,3 +1,7 @@
+metadata:
+  api:
+    url: locahost:8088
+
 # server:
 #   tomcat:
 #     basedir: .data/tomcat
