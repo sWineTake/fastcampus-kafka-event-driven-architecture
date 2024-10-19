@@ -55,7 +55,9 @@ public class PostController {
 		if (post == null) {
 			return ResponseEntity.notFound().build();
 		}
-		return ResponseEntity.ok(convertToDto(post));
+
+		// PostDto postDto = convertToDto(post);
+		return null; // ResponseEntity.ok(postDto);
 	}
 
 	@DeleteMapping("/{id}")

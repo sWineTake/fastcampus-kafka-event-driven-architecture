@@ -26,4 +26,6 @@ include 'usecase:post-resolving-help-usecase'
 findProject(':usecase:post-resolving-help-usecase')?.name = 'post-resolving-help-usecase'
 include 'adapter:mysql'
 findProject(':adapter:mysql')?.name = 'mysql'
+include 'adapter:kafka'
+findProject(':adapter:kafka')?.name = 'kafka'
 

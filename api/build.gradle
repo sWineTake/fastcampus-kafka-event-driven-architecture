@@ -13,7 +13,7 @@ dependencies {
     //implementation(project(":usecase:post-search-usecase"))
     //implementation(project(":usecase:coupon-usecase"))
 
-    //implementation(project(":adapter:kafka"))
+
     implementation(project(":adapter:mysql"))
     implementation(project(":adapter:metadata-client"))
     //implementation(project(":adapter:mongodb"))
