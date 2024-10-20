@@ -17,6 +17,7 @@ include 'usecase'
 include 'usecase:core'
 include 'usecase:post-usecase'
 include 'usecase:post-resolving-help-usecase'
+include 'usecase:inspected-post-usecase'
 
 // Adapter
 include 'adapter'
@@ -28,4 +29,8 @@ include 'adapter:mysql'
 findProject(':adapter:mysql')?.name = 'mysql'
 include 'adapter:kafka'
 findProject(':adapter:kafka')?.name = 'kafka'
+include 'adapter:chat-gpt-client'
+findProject(':adapter:chat-gpt-client')?.name = 'chat-gpt-client'
+include 'usecase:inspected-post-usecase'
+findProject(':usecase:inspected-post-usecase')?.name = 'inspected-post-usecase'
 

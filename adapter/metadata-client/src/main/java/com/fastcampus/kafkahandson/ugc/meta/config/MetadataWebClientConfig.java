@@ -1,5 +1,6 @@
 package com.fastcampus.kafkahandson.ugc.meta.config;
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -14,6 +15,7 @@ public class MetadataWebClientConfig {
 
 	@Bean
 	@Primary
+	@Qualifier("webClient")
 	public WebClient metadataWebClient() {
 		return WebClient.builder().baseUrl(metadataApiUrl).build();
 	}
