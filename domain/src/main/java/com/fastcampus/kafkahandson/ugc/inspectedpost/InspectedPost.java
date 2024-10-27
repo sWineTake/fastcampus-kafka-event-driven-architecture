@@ -3,12 +3,14 @@ package com.fastcampus.kafkahandson.ugc.inspectedpost;
 import com.fastcampus.kafkahandson.ugc.post.model.Post;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
+import lombok.ToString;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
 @Getter
 @RequiredArgsConstructor
+@ToString
 public class InspectedPost {
 
 	private final Post post;

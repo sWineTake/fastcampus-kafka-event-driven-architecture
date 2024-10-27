@@ -3,11 +3,14 @@ package com.fastcampus.kafkahandson.ugc.post.model;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
+
 import java.time.LocalDateTime;
 
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
+@ToString
 public class Post { // 원천 관리용 데이터
 
 	private Long id;
