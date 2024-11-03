@@ -10,6 +10,4 @@ public interface MetadataPort {
 
 	List<Long> listFollowerIdsByUserId(Long userId);
 
-
-
 }

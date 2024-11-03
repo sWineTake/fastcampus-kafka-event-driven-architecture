@@ -25,7 +25,7 @@ public class SubscribingPostAdapter implements SubscribingPostPort {
 
     @Override
     public void removePostFromFollowerInboxes(Long postId) {
-
+        subscribingPostRepository.deleteAllByPostId(postId);
     }
 
     @Override

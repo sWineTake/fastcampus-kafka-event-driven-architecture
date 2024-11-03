@@ -11,5 +11,6 @@ public interface SubscribingPostPort {
 	// 특정 구독자의 구독목록화면에서, 그 구독자가 구독하고있는 유저가 생성한 콘텐츠 목록을 본다.
 	List<Long> listPostIdsByFollowerUserIdWithPagination(Long followerUserId, int pageNumber, int pageSize);
 
+	// 콘텐츠가 삭제되면 콘텐츠를 구독하고있는 모두의 구독함에서 삭제한다.
 	void removePostFromFollowerInboxes(Long postId);
 }

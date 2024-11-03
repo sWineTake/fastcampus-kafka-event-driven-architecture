@@ -35,7 +35,7 @@ public class MetadataClient {
 	public List<Long> getFollowersByUserId(Long userId) {
 		return webClient
 				.get()
-				.uri("/followers?followingId=" + userId + "/followers")
+				.uri("/followers?followingId=" + userId)
 				.retrieve()
 				.bodyToFlux(Long.class)
 				.collectList()

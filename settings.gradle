@@ -30,4 +30,6 @@ include 'adapter:chat-gpt-client'
 include 'usecase:inspected-post-usecase'
 include 'worker:auto-inspecte-worker'
 include 'adapter:mongodb'
+include 'worker:content-subscribing-worker'
+findProject(':worker:content-subscribing-worker')?.name = 'content-subscribing-worker'
 
